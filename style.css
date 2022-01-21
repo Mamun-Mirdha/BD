@@ -1,0 +1,219 @@
+/* Defoult css */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+button{
+    border: none;
+}
+img{
+    max-width: 100%;
+}
+
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container-width{
+    width: 1200px;
+    margin: auto;
+}
+p{
+    Font-family: Open Sans, sans-serif;
+}
+/* Defoult css end */
+
+/* HEADER AREA START HERE */
+.header-area {
+    background-color: #1abc9c;
+    padding: 10px 0;
+}
+.logo-area-left{
+    float: left;
+    width: 30%;
+}
+.logo-area-left a {
+    line-height: 37px;
+    color: #fff;
+    font-size: 27px;
+}
+.menu-area-right{
+    float: right;
+    width: 70%;
+}
+.menu-area-right ul{
+    text-align: right;
+}
+.menu-area-right ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu-area-right ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    font-size: 15px;
+}
+/* HEADER AREA END HERE */
+
+/* banner area start here  */
+.banner-area{
+    background: url(https://i.ibb.co/rmxW7CJ/header-bg01.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.banner-content {
+    text-align: center;
+    color: #fff;
+}
+.banner-content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.banner-content p {
+    color: #CEF1EB;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+.banner-content button {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+/* banner area END here  */
+/* services area start here */
+.services-area{
+  
+    padding: 100px 0;
+    text-align: center;
+    border-bottom: 2px solid  #1abc9c;;
+}
+.services-area h1 {
+    color: #555555;
+    margin-bottom: 20px;
+}
+.services-area p{
+    color: #888888;
+}
+.services-items{
+    float: left;
+    width: 25%;
+    margin-top: 120px;
+}
+.services-items{
+    Font-family: Open Sans, sans-serif;
+}
+.services-items span {
+    color: #1abc9c;
+    font-size: 35px;
+}
+.services-items h3 {
+    margin: 14px;
+    color: #666666;
+    font-size: 23px;
+}
+.services-items p {
+    width: 200px;
+    margin: auto;
+    color: #888888;
+}
+/* services area end here */
+/* about area start here */
+.about-area {
+    margin: 80px 0;
+
+}
+.about-area h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #555;
+}
+.about-area p{
+    text-align: center;
+    color: #888888;
+    margin-bottom: 60px;
+}
+
+.about-left{
+    float: left;
+    width: 35%;
+}
+.about-left img {
+    height: 320px;
+}
+.about-rght {
+    float: right;
+    width: 62%;
+    Font-family: Open Sans, sans-serif;
+    margin-left: 20px;
+}
+.about-rght h4{
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.about-rght p {
+    text-align: left;
+    margin-bottom: 18px;
+}
+/* about area end here */
+/* contact area start here */
+.contact-area{
+    text-align: center;
+    background-color: #F6F6F6;
+    padding: 60px 0;
+}
+.contact-area h1{
+    color: #555;
+    margin-bottom: 15px;
+}
+.contact-area p{
+    color: #888888;
+}
+.detels{
+    width: 1000px;
+    margin: auto;
+}
+.contact-item {
+    float: left;
+    width: 33%;
+    margin-top: 50px;
+}
+.contact-item span i{
+    color: #1abc9c;
+    margin-bottom: 10px;
+}
+/* contact area end here */
+/* socal area start here */
+.socail-icon{
+    background-color: #16a085;
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+}
+.socail-icon ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+/* socal area end here */
+.footer-area{
+    background-color: #222;
+    padding: 15px 0;
+    color: #555;
+    text-align: center;
+    font-size: 15px;
+}
